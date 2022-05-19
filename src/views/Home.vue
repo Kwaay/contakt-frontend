@@ -142,7 +142,6 @@ export default {
   methods: {
     impactAliment(index) {
       if (!this.alimentSelected[index]) return 0;
-      console.log(this.alimentSelected[index]);
       const aliment = this.aliments.find(
         (item) => item.name === this.alimentSelected[index],
       );
